@@ -1,0 +1,14 @@
+body{
+    background-color: azure;
+}
+ul{
+    list-style-type: none;
+    margin: 0;
+    padding: 5;
+}
+li{
+    padding-left: 3px;
+    padding-right: 3px;
+
+    display: inline;
+}
