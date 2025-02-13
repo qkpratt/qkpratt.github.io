@@ -1,0 +1,183 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <title>Kai's Recipe</title>
+        <link rel="stylesheet" href="recipe2.css">
+        <script src="recipe2.js"></script>
+        <!--Quenton(Kai) Pratt. Period 4-->
+        
+    </head>
+    <body>
+       
+        <header id="header">
+            <h1 class="inline">Gingerbread Cookies</h1>
+            <p>
+                <div id="barleft"><button><a class="nodeco" href="#"><img id='uparrow' src="media/uparrowL.png" class="symbol">Top</button></a></div>
+                <div id="barmiddle"><button><a class="nodeco" href="#ingredients"><img id='bowl' src="media/bowlL.png" class="symbol">Ingredients</button></a></div>
+                <div id="barmiddler"><button><a class="nodeco" href="#recipe"><img id='oven' src="media/ovenL.png" class="symbol">Recipe</button></a></div>
+                <div id="barright"><button onclick="darkmode(true)" id="dmbutt"><img id="dmtoggle" src="media/DMtoggle.png" class="symbol"><span id="dmbutttxt">Dark Mode</span></button></div>
+            </p>
+            <hr>
+        </header>
+        <div id="sidebar">
+            <img src="media/ad.png" id="ad">
+            <button id="hidead" onclick="togglead(false)">&lt;</button>
+        </div>
+        <h1>Information</h1>
+        <a href="https://www.wikipedia.org/wiki/Gingerbread" class="nodeco" target="_blank">
+            <div class= "rounded square grayBG">
+                <img src="media/fair.png" alt="a old European festival" class="indiv">
+                <p class="pushup">Gingerbread was a popular treat at <b>medieval European festivals and fairs</b>, 
+                and there were even <i>dedicated gingerbread fairs</i>. 
+                they were sold in monasteries and pharmacies.</p>
+            </div>
+        </a>
+        <a href="https://www.guinnessworldrecords.com/world-records/largest-gingerbread-house" target="_blank" class="nodeco">
+            <div class= "rounded square grayBG">
+                <img src="media/biggingerhosue.png" alt="giant gingerbread house the size of a normal house" class="indiv">
+                <p class="pushup">The largest gingerbread house had an internal volume of <b><i>1,110.1 m³ (39,201.8 ft³)</i></b> and was created by <i>Traditions Club (USA)</i> at Traditions Club, Bryan, Texas</p>
+            </div>
+        </a>
+        <div class= "rounded square grayBG">
+            <video src="media/buildingvideo.mp4" controls class="widthinherit">
+                <p>your browser does not support the video tag.</p>
+            </video>
+            <p class="pushup">This is a video talking about the gingerbread house found on the websight. You can find the youtube link <a href="https://www.youtube.com/watch?v=v-x3YbdOmXI" target="_blank">here.</a></p>
+        </div>
+        <br>
+        <p>
+            This is a simple gingerbread cookie Recipe that I
+            used to make a gingerbread house a while back. This Recipe comes
+            from <a href="https://sallysbakingaddiction.com/gingerbread-house/" target="blank">sallysbakingaddiction.com</a>. 
+            I hope you can have a lot of fun as I did with this Recipe!
+        </p>
+        <p>
+           For the design, you can either find one online or make it yourself.
+           I sketch all the pieces out on paper, cut out the paper, and then trace and cut that 
+           out on the gingerbread. 
+        </p>
+        <section class="ancherpos" id="ingredients"></section>
+        <h2>Ingredients</h2>
+        <div id="nexttotable">
+            <img src="media/cookies.png" id="imagecookie">
+        </div>
+
+        <table class="tbldeco">
+            <tr>
+                <th>Amount</th>
+                <th>Ingredient</th>
+                <th>Extra Notes</th>
+            </tr>
+            <tr>
+                <td>3 cups</td>
+                <td>all-purpose flour</td>
+                <td>spooned and leveled</td>
+            </tr>
+            <tr>
+                <td>1/4 teaspoon</td>
+                <td>baking soda</td>
+                <td></td>
+            </tr>
+            <tr>
+                <td>2 teaspoons</td>
+                <td>ground ginger</td>
+                <td></td>
+            </tr>
+            <tr>
+                <td>2 teaspoons</td>
+                <td>ground cinnamon</td>
+                <td></td>
+            </tr>
+            <tr>
+                <td>1/2 teaspoon</td>
+                <td>ground allspice</td>
+                <td></td>
+            </tr>
+            <tr>
+                <td>1/4 teaspoon</td>
+                <td>salt</td>
+                <td></td>
+            </tr>
+            <tr>
+                <td>6 tablespoons</td>
+                <td>unsalted butter</td>
+                <td>softened to room temp</td>
+            </tr>
+            <tr>
+                <td>3/4 cup</td>
+                <td>brown sugar</td>
+                <td></td>
+            </tr>
+            <tr>
+                <td>1</td>
+                <td>egg</td>
+                <td>large, room temperature</td>
+            </tr>
+            <tr>
+                <td>1/2 cup</td>
+                <td>dark molasses</td>
+                <td>grandma's brand</td>
+            </tr>
+            <tr>
+                <td>1 tablespoon</td>
+                <td>water</td>
+                <td></td>
+            </tr>
+        </table>
+        <div class="ancherpos" id="recipe"></div>
+        <h2>Recipe</h2>
+        <ol>
+            <li>Make the cookie dough: Whisk the flour, baking soda, ginger, cinnamon, 
+                allspice, and salt together in a large bowl. Set aside.</li>
+            <li>In a large bowl using a handheld mixer or stand mixer fitted with a paddle attachment,
+                 beat the butter and brown sugar together on medium speed until completely smooth and creamy,
+                  about 2 minutes. Beat in the egg, molasses, and water on high speed. Scrape down the sides
+                   and up the bottom of the bowl and beat again as needed to combine. On low speed, slowly 
+                   mix the dry ingredients into the wet ingredients until combined. Cookie dough will be very 
+                   thick.</li>
+            <li>Divide cookie dough in half, flatten into discs (about 4-5 inches in diameter), and wrap each
+                 tightly in plastic wrap. Chill in the refrigerator for 2 hours or up to 3 days</li>
+            <li>Preheat oven to 350°F (177°C). Line 2-3 large baking sheets with parchment paper or silicone 
+                baking mats.</li>
+            <li>Cut out house pieces (or just cookie shapes) from the gingerbread</li>
+            <li>Bake house pieces for about 18-20 minutes or until edges are lightly browned. Bake chimney 
+                pieces for about 12-13 minutes or until edges are lightly browned. Remove from the oven and 
+                allow shapes to cool completely on the baking sheets or on the counter. A flat surface is KEY 
+                for cooling—the gingerbread house edges very slightly curl up otherwise. Cooled gingerbread 
+                house pieces can be made up to 1 week in advance, cover tightly and store at room temperature 
+                or in the refrigerator. They can also be frozen for up to 3 months, thaw at room temperature 
+                before using.</li>
+            <li>Enjoy! You can assemble a house, add icing, make cookies, and more!</li>
+        
+        </ol>
+        <h3>References</h3>
+
+        <ul>
+            <li><a href="https://www.wikipedia.org/wiki/Gingerbread"  target="_blank">Wikipedia</a></li>
+            <li><a href="https://sallysbakingaddiction.com/gingerbread-house/" target="blank">Sallys baking addiction</a></li>
+            <li><a href="https://www.guinnessworldrecords.com/world-records/largest-gingerbread-house" target="_blank">Guinnes world records</a></li>
+        </ul>
+        <hr>
+        <h3>More From Me</h3>
+        <footer id="footer">
+            <table>
+                <tr>
+                    <td><a href="">Ginger bread house recipe</a></td>
+                    <td><a href="">history of gingerbread houses (and a recipe)</a></td>
+                    <td><a href="">Gingerbread houses for dummies</a></td>
+                </tr>
+                <tr>
+                    <td><a href="">ginger cookie recipe</a></td>    
+                    <td><a href="">tasty ginger sweets</a></td>
+                    <td><a href="">food house instructions</a></td>
+                </tr>
+                <tr>
+                    <td><a href="">How to: gingerbread house</a></td>
+                    <td><a href="">all about gingerbread houses</a></td>
+                    <td><a href="">A old gingerbread house recipe I used</a></td>
+                </tr>
+            </table>
+        </footer>
+    </body>
+</html>

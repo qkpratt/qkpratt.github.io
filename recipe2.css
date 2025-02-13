@@ -1,0 +1,152 @@
+:root{
+    --bg: white;
+    --txt: black;
+    --grey: grey;
+    --grey2: lightgrey;
+    --blue: blue;
+    --buttonblue: #00a0ff;
+    --leftpadding: 30%;
+    --rightpadding: 10%;
+    --adleft:5%;
+}
+a{
+    color: var(--blue);
+}
+a:visited{
+    color: var(--blue);
+}
+.ancherpos {   
+    display: block; 
+    position: relative; 
+    visibility: hidden; 
+    top: -100px;  
+}
+.rounded{
+    border-radius: 15px;
+}
+.square{
+    width: 18vw;
+    height: 18vw;
+}
+.grayBG{
+    overflow: hidden;
+    background: var(--grey2);
+    border: 2px solid var(--grey);
+    display: inline-block;
+    position: relative;
+}
+.indiv{
+    position: relative;
+    width: inherit;
+    height: 50%;
+    display: inline-block;
+}
+.widthinherit{
+    width: inherit;
+}
+.pushup{
+    position: relative;
+    padding-left: 5px;
+    top: -1.4vw;
+    font-size: 1.1vw;
+}
+.nodeco{
+    text-decoration: none;
+    color: var(--txt) !important;
+}
+.colorhover{
+    border-color: var(--txt);
+}
+.colorhover:hover{
+    border-color: blue;
+}
+body{
+    background-color: var(--bg);
+    color: var(--txt);
+}
+html{
+    padding-left: var(--leftpadding);
+    padding-right: var(--rightpadding);
+}
+.tbldeco{
+    border:1px solid var(--txt);
+    border-collapse:collapse;
+}
+.tbldeco th{
+    padding: 4px;
+    border:1px solid var(--txt);
+}
+.tbldeco td{
+    padding: 4px;
+    border:1px solid var(--txt);
+}
+#header{
+    position: sticky;
+    top: 0;
+    z-index: 10;
+    background-color: var(--bg);
+    padding: 0;
+}
+.inline{
+    display: inline;
+}
+#barleft{
+    position: relative;
+    left:5%;
+    display: inline-block;
+
+}
+#barmiddle{
+    position: relative;
+    left:20%;
+    display: inline-block;
+}
+#barmiddler{
+    position: relative;
+    left: 35%;
+    display: inline-block;
+}
+#barright{
+    position: relative;
+    left: 50%;
+    display: inline-block;
+    margin: 0;
+}
+
+button{
+    background-color: var(--buttonblue);
+    border-radius: 100px;
+    border-color: transparent;
+    color: var(--txtcolor);
+}
+.symbol{
+    position: relative;
+    top: 2px;
+
+}
+#nexttotable{
+    position: absolute;
+    left: 70%;
+    border: 5px solid var(--txt);
+    width: fit-content;
+    height: 250px;
+    border-radius: 25%;
+    overflow: hidden;
+    scale:150%;
+
+}
+
+#ad{
+    width: 15vw;
+}
+#sidebar{
+    position: fixed;
+    top: 20vh;
+    left: var(--adleft);
+    scale:1.2;
+}
+#hidead{
+    position: absolute;
+    top:1%;
+    right:1%;  
+}

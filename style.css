@@ -1,0 +1,108 @@
+:root{
+    --bg:black;
+    --text: white;
+    --color-calendar-graph-day-bg: #dddbdb;
+    --color-calendar-graph-day-L1-bg: #39dd34;
+    --color-calendar-graph-day-L2-bg: #45a045;
+    --color-calendar-graph-day-L3-bg: #047526;
+    --color-calendar-graph-day-L4-bg: #0a4208;
+}
+/* Controbution calender Day colors */
+.ContributionCalendar-day[data-level='0'] {
+    background-color: var(--color-calendar-graph-day-bg);
+}
+
+.ContributionCalendar-day[data-level='1'] {
+    background-color: var(--color-calendar-graph-day-L1-bg);
+}
+
+.ContributionCalendar-day[data-level='2'] {
+    background-color: var(--color-calendar-graph-day-L2-bg);
+}
+
+.ContributionCalendar-day[data-level='3'] {
+    background-color: var(--color-calendar-graph-day-L3-bg);
+}
+
+.ContributionCalendar-day[data-level='4'] {
+    background-color: var(--color-calendar-graph-day-L4-bg);
+}
+.ContributionCalendar-day{
+    
+    border: solid 1px var(--bg);
+}
+.navbar{
+    padding:auto !important;    
+}
+.text-center{
+    margin: auto;
+}
+
+/* Container for calender */
+
+.calcon{
+    margin: auto;
+    margin-bottom: 5px; /* 5px bottom margin to give the progects some space */
+
+}
+body{
+    background-color: var(--bg);
+    color: var(--text);
+}
+.container{
+    width: 60%;
+}
+
+.github-card{
+    border: 1px solid lightgrey;
+    margin: 5px;
+    border-radius: 10px;
+    height: 150px;
+    padding: 5px;
+    overflow: hidden;
+}
+.github-card-no-rando{
+    border: 1px solid lightgrey;
+    margin: 5px;
+    border-radius: 10px;
+    height: 150px;
+    padding: 5px;
+    overflow: hidden;
+    width: 30%;
+    display: inline-block;
+}
+.card{
+    color:var(--text);
+    background-color: var(--bg);
+    border: 3px solid gray;
+}
+.nodeco{
+    color:var(--text);
+    text-decoration: none;
+}
+.card{
+    padding: 5px;
+}
+
+/* for the table containing my scheual. sce stands for scedual */
+.sce tr th{
+    border:1px solid var(--text);
+}
+.sce tr td{
+    border:1px solid var(--text);
+}
+.sce{
+    width: 100%;
+}
+.img-thumbnail{
+    border: none;
+    padding: none;
+    border-radius: 10% !important;
+}
+.git-prof{
+    max-width: 100% !important;
+    height: auto;
+}
+.card{
+    border: 2px solid var(--text);
+}

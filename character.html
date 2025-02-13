@@ -1,0 +1,276 @@
+<!DOCTYPE html>
+<html land="en">
+	<head>
+    	<link rel="preconnect" href="https://fonts.googleapis.com">
+    	<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    	<link href="https://fonts.googleapis.com/css2?family=Comic+Neue:ital,wght@0,300;0,400;0,700;1,300;1,400;1,700&display=swap" rel="stylesheet">
+
+    	<title>Homer simpson</title>
+    	<style>
+        	.head{
+            	position: absolute;
+            	rotate: -15deg;
+            	background-color: yellow;
+            	width:100px;
+            	height: 170px;
+            	top:20px;
+            	left:30px;
+            	border-radius: 50px;
+            	border: 2px solid black;
+        	}
+        	.bump{
+            	position: absolute;
+            	width:20px;
+            	height:20px;
+            	background-color: yellow;
+            	top: 50px;
+            	left: 90px;
+            	border-radius: 100%;
+            	padding:0px;
+
+        	}
+        	.bumpborder{
+            	position: relative;
+            	width:22px;
+            	height:22px;
+            	top: 50px;
+            	left: 102px;
+            	z-index: -2;
+            	border-radius: 100%;
+            	padding:0px;
+            	border: 2px solid black;
+        	}
+        	.eyeR{
+            	position: absolute;
+            	width:35px;
+            	height:35px;
+            	background-color: white;
+            	top: 60px;
+            	left: 71px;
+            	border-radius: 100%;
+            	border: 2px solid black;
+            	align-content: center;
+				z-index: 1;
+
+        	}
+        	.pupR{
+            	background-color: black;
+            	border-radius: 100%;
+            	width:6px;
+            	height: 6px;
+            	position: relative;
+            	top: -1px;
+            	left: 5px;
+            	margin:auto;
+
+        	}
+        	.eyeL{
+            	position: absolute;
+            	width:38px;
+            	height:38px;
+            	background-color: white;
+            	top: 58px;
+            	left: 36px;
+            	border-radius: 100%;
+            	border: 2px solid black;
+            	align-content: center;
+            	z-index: 999;
+        	}
+        	.pupL{
+            	background-color: black;
+            	border-radius: 100%;
+            	width:6px;
+            	height: 6px;
+            	position: relative;
+            	top: 1px;
+            	left: -5px;
+            	margin:auto;
+        	}
+        	.nose{
+            	position: absolute;
+            	background-color: yellow;
+            	border-radius: 50px;
+            	width: 15px;
+            	height: 47px;
+            	border-right: 2px solid black;
+            	border-left: 2px solid black;
+            	border-top: 2px solid black;
+            	border-bottom: 14px solid yellow;
+            	rotate: 85deg;
+            	top: 67px;
+            	left: 58px;
+            	z-index: 2;
+        	}
+        	.below{
+            	position: absolute;
+            	top: 220px;
+           	 
+        	}
+       	 
+        	.hair{
+            	border: 2px solid black;
+            	display: inline-block;
+            	width: 30px;
+            	height: 30px;
+            	padding: 0;
+            	border-radius: 50%;
+            	border-top-color: transparent;
+            	border-right-color: transparent;
+            	rotate: 110deg;
+          	 
+        	}
+
+        	.hair1{
+            	position:absolute;
+            	top:-10px;
+            	left: 35px;
+       	 
+        	}
+        	.hair2{
+            	position:absolute;
+            	top:-10px;
+            	left: 22px;           	 
+        	}
+        	.sideburn{
+            	position:absolute;
+            	font-size: 7px;
+            	transform: scale(6, 4)  rotate(-180deg);
+            	font-weight: 100;    	 
+            	top: 70px;
+        	}
+        	.ear{
+            	position: absolute;
+            	width:15px;
+            	height:15px;
+            	background-color: yellow;
+            	top: 85px;
+            	left: -10px;
+            	border-radius: 100%;
+            	padding:0px;
+            	border: 2px solid black;
+            	border-right-color: transparent;
+        	}
+        	.comic-neue-light {
+          	font-family: "Comic Neue", cursive;
+          	font-weight: 300;
+          	font-style: normal;
+        	}
+      	.mouthtop{
+          	background-color: #b37c46;
+          	border: 2px solid black;
+          	position: absolute;
+          	width: 40px;
+          	height: 20px;
+          	border-radius: 50px 0 0 0;
+          	border-color: black transparent transparent black;
+          	top: 107px;
+          	left: 29px;
+          	rotate: -5deg;
+          	z-index: 3;
+
+      	}
+      	.mouthbottom{
+          	background-color: #b37c46;
+          	border: 2px solid black;
+          	position: absolute;
+          	width: 65px;
+          	height: 61px;
+          	border-radius:  40px 0 50px 50px;
+          	border-color: black black black black;
+          	top: 107px;
+          	left: 30px;
+          	rotate: -5deg;
+          	z-index:-2;
+
+
+      	}
+      	.cover{
+          	background-color: yellow;
+          	position: absolute;
+          	width: 25px;
+        	height: 25px;
+          	top: 100px;
+          	left: 20px;
+          	z-index:1;
+      	}
+      	.smile{
+			background-color: #b37c46;
+
+        	position: absolute;
+        	width: 50px;
+        	height: 75px;
+        	top: 75px;
+        	left: 50px;
+        	border-radius: 100%;
+        	padding:0px;
+        	border: 2px solid black;
+        	border-color: transparent black black black;
+        	rotate: -90deg;
+			z-index: 0;
+		}
+      	.dimple{
+        	position: absolute;
+        	width: 15px;
+        	height: 15px;
+        	top: 122px;
+        	left: 45px;
+        	border-radius: 100%;
+        	padding:0px;
+        	border: 2px solid black;
+        	border-color: transparent transparent transparent black;
+        	z-index:9999;
+      	}
+    	</style>
+	</head>
+	<body>
+    	<div class="bumpborder">
+    	</div>
+   	 
+    	<div class="head">
+        	<div class="hair1 hair"></div>
+        	<div class="hair2 hair"></div>
+
+        	<div class="nose">
+
+        	</div>
+
+        	<div class="bump">
+           	 
+        	</div>
+       	 
+        	<div class="eyeR">
+            	<div class="pupR">
+            	</div>
+        	</div>
+        	<div class="eyeL">
+            	<div class="pupL">
+            	</div>
+        	</div>
+        	<div class="sideburn comic-neue-light">
+            	<p></p>w</p>
+        	</div>
+        	<div class="ear">
+
+        	</div>
+        	<div class="mouthtop">
+
+        	</div>
+        	<div class="mouthbottom">
+
+        	</div>
+        	<div class="cover">
+
+        	</div>
+        	<div class="smile">
+
+        	</div>
+        	<div class="dimple">
+
+        	</div>
+    	</div>
+  	 
+
+    	<div class="below">
+    	</div>
+	</body>
+</html>
