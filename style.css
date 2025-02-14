@@ -1,11 +1,12 @@
 :root{
     --bg:black;
     --text: white;
-    --color-calendar-graph-day-bg: #dddbdb;
-    --color-calendar-graph-day-L1-bg: #39dd34;
-    --color-calendar-graph-day-L2-bg: #45a045;
-    --color-calendar-graph-day-L3-bg: #047526;
-    --color-calendar-graph-day-L4-bg: #0a4208;
+    --color-calendar-graph-day-L4-bg: #39d353;
+    --color-calendar-graph-day-L3-bg: #26a641;
+    --color-calendar-graph-day-L2-bg: #006d32;
+    --color-calendar-graph-day-L1-bg: #0e4429;
+    --color-calendar-graph-day-bg: #161b22;
+    --gold: #ffff00;
 }
 /* Controbution calender Day colors */
 .ContributionCalendar-day[data-level='0'] {
@@ -39,7 +40,18 @@
 }
 
 /* Container for calender */
-
+.calendar-graph{
+    border: blue;
+}
+.calendar{
+    border:2px solid var(--gold);
+    border-radius: 3px;
+    background-color: var(--bg);
+}
+.calendar div{
+    border: none!important;
+    
+}
 .calcon{
     margin: auto;
     margin-bottom: 5px; /* 5px bottom margin to give the progects some space */
@@ -54,7 +66,7 @@ body{
 }
 
 .github-card{
-    border: 1px solid lightgrey;
+    border: 1px solid var(--gold);
     margin: 5px;
     border-radius: 10px;
     height: 150px;
@@ -62,7 +74,7 @@ body{
     overflow: hidden;
 }
 .github-card-no-rando{
-    border: 1px solid lightgrey;
+    border: 1px solid var(--gold);
     margin: 5px;
     border-radius: 10px;
     height: 150px;
@@ -74,7 +86,7 @@ body{
 .card{
     color:var(--text);
     background-color: var(--bg);
-    border: 3px solid gray;
+    border: 3px solid var(--gold);
 }
 .nodeco{
     color:var(--text);
@@ -86,23 +98,30 @@ body{
 
 /* for the table containing my scheual. sce stands for scedual */
 .sce tr th{
-    border:1px solid var(--text);
+    border:1px solid var(--gold);
 }
 .sce tr td{
-    border:1px solid var(--text);
+    border:1px solid var(--gold);
 }
 .sce{
     width: 100%;
-}
-.img-thumbnail{
-    border: none;
-    padding: none;
-    border-radius: 10% !important;
 }
 .git-prof{
     max-width: 100% !important;
     height: auto;
 }
 .card{
-    border: 2px solid var(--text);
+    border: 2px solid var(--gold);
+}
+a{
+
+    color:var(--txt);
+    text-decoration-skip-ink: none;
+    text-decoration:solid underline blue 3px;
+
+}
+hr{
+    background-color: var(--gold);
+    height:2px;
+    color: transparent ;
 }
