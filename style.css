@@ -8,7 +8,9 @@
     --color-calendar-graph-day-bg: #161b22;
     --gold: #ffff00;
 }
-
+#git-prof{
+    width:25% !importent;
+}
 @media screen and (orientation: portrait) {
     .container{
         width:100% !important;
