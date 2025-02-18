@@ -11,7 +11,7 @@
 
 .container{
     width:100% !important;
-
+}
 /* Controbution calender Day colors */
 .ContributionCalendar-day[data-level='0'] {
     background-color: var(--color-calendar-graph-day-bg);
