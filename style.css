@@ -9,8 +9,10 @@
     --gold: #ffff00;
 }
 
-.container{
-    width:100% !important;
+@media screen and (orientation: portrait) {
+    .container{
+        width:100% !important;
+    }
 }
 /* Controbution calender Day colors */
 .ContributionCalendar-day[data-level='0'] {
